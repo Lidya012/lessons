@@ -1,7 +1,6 @@
 package lesson04;
 
 import java.util.Scanner;
-
 public class ForAndWhile {
     public static void main(String[] args) {
         // WHILE / DO WHILE / FOR
