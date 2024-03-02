@@ -14,7 +14,7 @@ public class WindowingMethod {
                 maxSum = nowSum;
             }
         }
-            System.out.println("Максимальная сумма четырех смежных элементов равна "+ maxSum);
+        System.out.println("Максимальная сумма четырех смежных элементов равна "+ maxSum);
 
 
 

@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class BubbleSorter {
     public static void main(String[] args) {
-Scanner scanner =new Scanner(System.in);
+        Scanner scanner =new Scanner(System.in);
         System.out.println("Введите количество элементов в массиве:");
         int n = scanner.nextInt();
         int  []array = new int[n];
@@ -28,8 +28,8 @@ Scanner scanner =new Scanner(System.in);
                 }
             }
         }
-                System.out.println("Отсортированный массив" + Arrays.toString(array));
+        System.out.println("Отсортированный массив" + Arrays.toString(array));
 
-            }
+    }
 
-        }
+}
