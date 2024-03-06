@@ -40,4 +40,22 @@ public  void armyRecruiment(CombatUnit[] units){
     setMoney(getMoney() - 200);
 
 }
+    public  void armyRecruiment(CombatUnit unit){
+        if (getMoney() < 12) {
+            System.out.println("Недостаточно средств, чтобы воспользоваться заменой юнита");
+            return;
+    }
+        boolean flag = false;
+        for  (int i = 0; i < army.length; i++){
+            if (army[i].getHealth() < 1){
+                Unit tempUnit = army[i];
+                army[i] = unit;
+                flag = true;
+                System.out.println("В армии заменили юнита " + tempUnit + " на " + army[i]);
+                break;
+            }
+        }
+        if (!flag) System.out.println("Все юниты в армии здоровы");
+        setMoney(getMoney() - 12);
+    }
 }
