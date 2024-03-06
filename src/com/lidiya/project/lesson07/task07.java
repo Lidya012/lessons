@@ -1,4 +1,7 @@
-package com.lidiya.project.lesson07.task07;
+package com.lidiya.project.lesson07;
+
+import com.lidiya.project.task07.PermittedProducts;
+import com.lidiya.project.task07.Product;
 
 public class task07 {
     public static void main(String[] args) {
@@ -19,4 +22,5 @@ public class task07 {
             System.out.println("Продукт не подходит");
         else System.out.println("Продукт подходит");
     }
+
 }

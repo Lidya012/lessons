@@ -1,0 +1,14 @@
+родительский класс / супертип / суперкласс
+Unit
+ - healthPoint
+ - speedPoint
+ - rest(){}
+
+дочерний класс / подтип
+класс BattleUnit наследуется / расширяет класс Unit
+BattleUnit extends Unit
+ - attackPoint
+ - attack(unit){}
+
+
+юниты создаются со свойствами healthPoint, weightPoint
