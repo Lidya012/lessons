@@ -3,7 +3,7 @@ package com.lidiya.project.lesson11.task.images;
 
 import java.util.Arrays;
 
-public class Gallery implements Drawable, Cloneable{
+public class Gallery implements Drawable{
     private String name;
     private Drawable[] drawables;
 

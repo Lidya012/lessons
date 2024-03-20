@@ -1,0 +1,27 @@
+ПКМ на запускаемом файле ->
+More Run/Debug ->
+Modify Run Configuration ->
+Modify Options ->
+Add VM Options
+
+Задать размер кучи (heap memory):
+-Xms<size>[unit of measurement] Минимальный размер
+-Xmx<size>[unit of measurement] Максимальный размер
+
+<size> - размер
+[unit of measurement] - единица измерения: g для GB, m для MB, k для KB
+
+Например, -Xms5G -Xmx8G
+
+Задать максимальный размер metaSpace:
+-XX:MaxMetaspaceSize=<metaspace size>[unit of measurement]
+
+<size> - размер
+[unit of measurement] - единица измерения: g для GB, m для MB, k для KB
+
+Отчет о сборке мусора в файл:
+-Xlog:gc*:file name:time
+
+file name - имя файла
+
+Например, -Xlog:gc*:GC.log:time

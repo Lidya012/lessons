@@ -1,6 +1,6 @@
 package com.lidiya.project.lesson11.task.images;
 
-public class Image implements Drawable,  Cloneable {
+public class Image implements Drawable{
     private String path;
 
     public Image(String path) {
