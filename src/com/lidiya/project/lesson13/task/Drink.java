@@ -1,14 +1,15 @@
 package com.lidiya.project.lesson13.task;
 
-public class Drink implements Action{
+public class Drink extends Action {
     @Override
     public void execute() {
-        System.out.print("drink ");
+        System.out.println("drink");
     }
 
-    @Override
-    public void nextAction() {
-        execute();
-        new Play().nextAction();
+    void nextAction(Action action) {
+        super.nextAction(action);
     }
+
+
+
 }

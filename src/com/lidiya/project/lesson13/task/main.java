@@ -6,13 +6,12 @@ public class main {
         Action action02 = new Drink();
         Action action03 =new Play();
 
+
+
+        action01.nextAction(action02);
+        action02.nextAction(action03);
+
         Animal animal = new Animal();
-
-        animal.doAction(action01);
-        System.out.println();
-        animal.doAction(action02);
-        System.out.println();
-        animal.doAction(action03);
-
+        animal.doAction(action01); // eat drink play
     }
 }
