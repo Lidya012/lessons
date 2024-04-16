@@ -1,7 +1,7 @@
 package com.lidiya.project.lesson1920;
 
 import java.util.Optional;
-import com.lidiya.project.lesson09.Car;
+
 
 public class lesson19Optional {
     // Optional<T> - null-safe контейнер,
@@ -21,7 +21,7 @@ public class lesson19Optional {
   Optional<String> optional03 = Optional.empty();
 
     // Проверка
-
+/*
         if (optional02.isEmpty()) {
         System.out.println("Контейнер содержит null ссылку");
     }
@@ -76,7 +76,7 @@ public class lesson19Optional {
             // выполнится, если optional02 содержит null ссылку
             () -> System.out.println("Значения не существует")
             );
-
+*/
 }
 
 
