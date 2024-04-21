@@ -23,6 +23,8 @@ public class main {
         Collections.addAll(articleList, article01, article02, article03, article04);
         System.out.println(task01(articleList));
         System.out.println(task02(articleList, Article.Category.SHOPPING));
+        System.out.println(task03(articleList, Article.Category.TRAVELLING, 4, 40));
+        System.out.println(task04(articleList, Article.Category.SHOPPING));
     }
 
 
